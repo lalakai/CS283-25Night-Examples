@@ -64,6 +64,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -83,6 +84,21 @@
       <Project>{dae63499-371e-4050-a612-b72a765f0a3e}</Project>
       <Name>pokemonLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bulbasaur_candy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pokemon-Go-Stardust.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

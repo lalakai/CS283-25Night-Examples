@@ -88,8 +88,8 @@ namespace Example02
                     pokemon = new Pokemon()
                     {
                         Name = "妙蛙草",
-                        CurrentHp = 550,
-                        Hp = 560,
+                        CurrentHp = pokemon.CurrentHp + 200,
+                        Hp = pokemon.Hp + 200,
                         Height = 1.76f,
                         Types = new string[] { "草", "毒" },
                         Weight = 10.94f,
@@ -107,6 +107,7 @@ namespace Example02
                     EvolveCandyLabel.Text = pokemon.EvolveCandy.ToString();
                     UserStardustLabel.Text = UserStardust.ToString();
                     UserCandyLabel.Text = UserCandy.ToString();
+                    pictureBox1.Image = Properties.Resources._002;
                     PowerUpTimes = 0;
                     button1.Enabled = true;
                 }
@@ -124,8 +125,8 @@ namespace Example02
                     pokemon = new Pokemon()
                     {
                         Name = "妙蛙花",
-                        CurrentHp = 1250,
-                        Hp = 1260,
+                        CurrentHp = pokemon.CurrentHp + 300,
+                        Hp = pokemon.Hp + 300,
                         Height = 2.54f,
                         Types = new string[] { "草", "毒" },
                         Weight = 15.94f,
@@ -143,6 +144,7 @@ namespace Example02
                     EvolveCandyLabel.Text = "已進化至最高級別";
                     UserStardustLabel.Text = UserStardust.ToString();
                     UserCandyLabel.Text = UserCandy.ToString();
+                    pictureBox1.Image = Properties.Resources._003;
                     PowerUpTimes = 0;
                     button1.Enabled = true;
                     button2.Enabled = false;

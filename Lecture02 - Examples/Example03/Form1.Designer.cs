@@ -59,27 +59,31 @@
             // 
             this.NameLabel.AutoSize = true;
             this.NameLabel.Cursor = System.Windows.Forms.Cursors.Default;
-            this.NameLabel.Location = new System.Drawing.Point(182, 195);
+            this.NameLabel.Location = new System.Drawing.Point(173, 220);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(210, 30);
+            this.NameLabel.Size = new System.Drawing.Size(109, 30);
             this.NameLabel.TabIndex = 0;
-            this.NameLabel.Text = "pokemon的name";
+            this.NameLabel.Text = "妙蛙種子";
             // 
             // HpLabel
             // 
+            this.HpLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.HpLabel.AutoSize = true;
-            this.HpLabel.Location = new System.Drawing.Point(183, 224);
+            this.HpLabel.Location = new System.Drawing.Point(158, 250);
             this.HpLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.HpLabel.Name = "HpLabel";
-            this.HpLabel.Size = new System.Drawing.Size(45, 30);
+            this.HpLabel.Size = new System.Drawing.Size(140, 30);
             this.HpLabel.TabIndex = 1;
-            this.HpLabel.Text = "HP";
+            this.HpLabel.Text = "500/600Hp";
+            this.HpLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // WeightLabel
             // 
             this.WeightLabel.AutoSize = true;
-            this.WeightLabel.Location = new System.Drawing.Point(26, 287);
+            this.WeightLabel.Location = new System.Drawing.Point(42, 298);
             this.WeightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.WeightLabel.Name = "WeightLabel";
             this.WeightLabel.Size = new System.Drawing.Size(91, 30);
@@ -89,7 +93,7 @@
             // TypesLabel
             // 
             this.TypesLabel.AutoSize = true;
-            this.TypesLabel.Location = new System.Drawing.Point(179, 287);
+            this.TypesLabel.Location = new System.Drawing.Point(179, 297);
             this.TypesLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.TypesLabel.Name = "TypesLabel";
             this.TypesLabel.Size = new System.Drawing.Size(74, 30);
@@ -99,7 +103,7 @@
             // HeightLabel
             // 
             this.HeightLabel.AutoSize = true;
-            this.HeightLabel.Location = new System.Drawing.Point(321, 287);
+            this.HeightLabel.Location = new System.Drawing.Point(306, 298);
             this.HeightLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.HeightLabel.Name = "HeightLabel";
             this.HeightLabel.Size = new System.Drawing.Size(87, 30);
@@ -109,7 +113,7 @@
             // UserStardustLabel
             // 
             this.UserStardustLabel.AutoSize = true;
-            this.UserStardustLabel.Location = new System.Drawing.Point(66, 345);
+            this.UserStardustLabel.Location = new System.Drawing.Point(85, 379);
             this.UserStardustLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.UserStardustLabel.Name = "UserStardustLabel";
             this.UserStardustLabel.Size = new System.Drawing.Size(154, 30);
@@ -119,7 +123,7 @@
             // UserCandyLabel
             // 
             this.UserCandyLabel.AutoSize = true;
-            this.UserCandyLabel.Location = new System.Drawing.Point(309, 344);
+            this.UserCandyLabel.Location = new System.Drawing.Point(299, 379);
             this.UserCandyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.UserCandyLabel.Name = "UserCandyLabel";
             this.UserCandyLabel.Size = new System.Drawing.Size(129, 30);
@@ -129,7 +133,7 @@
             // PowerUpStardustLabel
             // 
             this.PowerUpStardustLabel.AutoSize = true;
-            this.PowerUpStardustLabel.Location = new System.Drawing.Point(181, 481);
+            this.PowerUpStardustLabel.Location = new System.Drawing.Point(171, 521);
             this.PowerUpStardustLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.PowerUpStardustLabel.Name = "PowerUpStardustLabel";
             this.PowerUpStardustLabel.Size = new System.Drawing.Size(141, 30);
@@ -139,7 +143,7 @@
             // PowerUpCandyLabel
             // 
             this.PowerUpCandyLabel.AutoSize = true;
-            this.PowerUpCandyLabel.Location = new System.Drawing.Point(332, 480);
+            this.PowerUpCandyLabel.Location = new System.Drawing.Point(319, 521);
             this.PowerUpCandyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.PowerUpCandyLabel.Name = "PowerUpCandyLabel";
             this.PowerUpCandyLabel.Size = new System.Drawing.Size(182, 30);
@@ -148,20 +152,19 @@
             // 
             // EvolveCandyLabel
             // 
-            this.EvolveCandyLabel.AutoSize = true;
-            this.EvolveCandyLabel.Location = new System.Drawing.Point(332, 556);
+            this.EvolveCandyLabel.Location = new System.Drawing.Point(319, 598);
             this.EvolveCandyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.EvolveCandyLabel.Name = "EvolveCandyLabel";
-            this.EvolveCandyLabel.Size = new System.Drawing.Size(121, 30);
+            this.EvolveCandyLabel.Size = new System.Drawing.Size(90, 86);
             this.EvolveCandyLabel.TabIndex = 9;
             this.EvolveCandyLabel.Text = "evocandy";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(108, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(69, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(223, 180);
+            this.pictureBox1.Size = new System.Drawing.Size(297, 205);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -169,7 +172,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(19, 332);
+            this.pictureBox2.Location = new System.Drawing.Point(41, 366);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(39, 57);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -179,7 +182,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(266, 339);
+            this.pictureBox3.Location = new System.Drawing.Point(267, 375);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(35, 40);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -189,7 +192,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(290, 474);
+            this.pictureBox7.Location = new System.Drawing.Point(276, 511);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(35, 40);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -199,7 +202,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(146, 468);
+            this.pictureBox4.Location = new System.Drawing.Point(138, 507);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(39, 57);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,7 +212,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(292, 550);
+            this.pictureBox5.Location = new System.Drawing.Point(276, 595);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(35, 40);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -221,7 +224,7 @@
             this.button1.BackColor = System.Drawing.Color.SpringGreen;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(19, 472);
+            this.button1.Location = new System.Drawing.Point(25, 509);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 53);
             this.button1.TabIndex = 19;
@@ -234,7 +237,7 @@
             this.button2.BackColor = System.Drawing.Color.SpringGreen;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(21, 549);
+            this.button2.Location = new System.Drawing.Point(27, 588);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 52);
             this.button2.TabIndex = 20;
@@ -268,7 +271,7 @@
             this.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bulbasaur";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
