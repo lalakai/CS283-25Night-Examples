@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\pokemonLibrary\Class1.cs">
-      <Link>Class1.cs</Link>
-    </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EasyMathLibrary\EasyMathLibrary\EasyMathLibrary.csproj">
+      <Project>{62d6c39d-56d2-4195-aebc-e665f7ad8da1}</Project>
+      <Name>EasyMathLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

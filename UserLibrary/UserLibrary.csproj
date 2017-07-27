@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DAE63499-371E-4050-A612-B72A765F0A3E}</ProjectGuid>
+    <ProjectGuid>{8A268E61-6934-47F8-BF2F-80F845B9555B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>pokemonLibrary</RootNamespace>
-    <AssemblyName>pokemonLibrary</AssemblyName>
+    <RootNamespace>UserLibrary</RootNamespace>
+    <AssemblyName>UserLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\pokemonLibrary\Class1.cs">
-      <Link>Class1.cs</Link>
-    </Compile>
+    <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

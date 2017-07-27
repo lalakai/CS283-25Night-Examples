@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DAE63499-371E-4050-A612-B72A765F0A3E}</ProjectGuid>
+    <ProjectGuid>{62D6C39D-56D2-4195-AEBC-E665F7AD8DA1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>pokemonLibrary</RootNamespace>
-    <AssemblyName>pokemonLibrary</AssemblyName>
+    <RootNamespace>EasyMathLibrary</RootNamespace>
+    <AssemblyName>EasyMathLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\pokemonLibrary\Class1.cs">
-      <Link>Class1.cs</Link>
-    </Compile>
+    <Compile Include="EasyRandom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-﻿namespace Example02
+﻿namespace Example01
 {
     partial class Form1
     {
@@ -165,6 +165,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+           
             // 
             // pictureBox2
             // 
